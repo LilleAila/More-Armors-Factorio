@@ -13,7 +13,7 @@ energyShieldMk3.max_shield_value = 250
 energyShieldMk3.take_result = "energy-shield-mk3"
 energyShieldMk3.shape = {
     width = 2,
-    height = 4,
+    height = 2,
     type = "full"
 }
 

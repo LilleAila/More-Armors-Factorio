@@ -3,5 +3,7 @@
   "version": "1.0.0",
   "title": "More Armors",
   "author": "LilleAila",
-  "factorio_version": "1.1"
+  "factorio_version": "1.1",
+  "homepage": "https://github.com/LilleAila/More-Armors-Factorio",
+  "description": "Adds more armor, equipments and an MK2 spidertron"
 }
