@@ -8,7 +8,7 @@ fusionReactorMk2.sprite = {
     width = 120,
     height = 120
 }
-fusionReactorMk2.power = "2MW"
+fusionReactorMk2.power = "1.5MW"
 fusionReactorMk2.take_result = "fusion-reactor-mk2"
 fusionReactorMk2.shape = {
     width = 4,
