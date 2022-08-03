@@ -64,7 +64,7 @@ technology.unit = {
         { "space-science-pack", 1 }
     },
     time = 30,
-    count = 1500
+    count = 4000
 }
 
 data:extend { energyShieldMk3, item, recipe, technology }

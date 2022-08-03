@@ -77,76 +77,48 @@ end
 
 spidertronMk2.spider_engine = {
     legs = {
-        -- { -- 1
-        --     leg = "spidertron-leg-1",
-        --     mount_position = util.by_pixel(13, -22.5), --{0.5, -0.75},
-        --     ground_position = { 2.26 * 1.5, -2.26 * 1.5 },
-        --     blocking_legs = { 2 },
-        --     leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
-        -- },
-        { -- 2
+        {
             leg = "spidertron-leg-1",
             mount_position = util.by_pixel(22.5, -13), --{0.75, -0.25},
             ground_position = { 2.96 * 1.5, -1.23 * 1.5 },
             blocking_legs = { 1, 2 },
             leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
         },
-        { -- 3
+        {
             leg = "spidertron-leg-2",
             mount_position = util.by_pixel(26, 0), --{0.75, 0.25},
             ground_position = { 3.2 * 1.5, 0 * 1.5 },
             blocking_legs = { 1, 3 },
             leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
         },
-        { -- 4
+        {
             leg = "spidertron-leg-3",
             mount_position = util.by_pixel(22.5, 13), --{0.75, 0.25},
             ground_position = { 2.96 * 1.5, 1.23 * 1.5 },
             blocking_legs = { 2 },
             leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
         },
-        -- { -- 5
-        --     leg = "spidertron-leg-5",
-        --     mount_position = util.by_pixel(13, 22.5), --{0.5, 0.75},
-        --     ground_position = { 2.26 * 1.5, 2.26 * 1.5 },
-        --     blocking_legs = { 4 },
-        --     leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
-        -- },
-        -- { -- 6
-        --     leg = "spidertron-leg-6",
-        --     mount_position = util.by_pixel(-13, -22.5), --{-0.5, -0.75},
-        --     ground_position = { -2.26 * 1.5, -2.26 * 1.5 },
-        --     blocking_legs = { 7 },
-        --     leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
-        -- },
-        { -- 7
+        {
             leg = "spidertron-leg-4",
             mount_position = util.by_pixel(-22.5, -13), --{-0.75, -0.25},
             ground_position = { -2.96 * 1.5, -1.23 * 1.5 },
             blocking_legs = { 5 },
             leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
         },
-        { -- 8
+        {
             leg = "spidertron-leg-5",
             mount_position = util.by_pixel(-26, 0), --{-0.75, 0.25},
             ground_position = { -3.2 * 1.5, 0 * 1.5 },
             blocking_legs = { 4, 6 },
             leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
         },
-        { -- 9
+        {
             leg = "spidertron-leg-6",
             mount_position = util.by_pixel(-22.5, 13), --{-0.5, 0.75},
             ground_position = { -2.96 * 1.5, 1.23 * 1.5 },
             blocking_legs = { 5, 6 },
             leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
-        },
-        -- { -- 10
-        --     leg = "spidertron-leg-10",
-        --     mount_position = util.by_pixel(-13, 22.5), --{-0.5, 0.75},
-        --     ground_position = { -2.26 * 1.5, 2.26 * 1.5 },
-        --     blocking_legs = { 9 },
-        --     leg_hit_the_ground_trigger = get_leg_hit_the_ground_trigger_vanilla()
-        -- }
+        }
     },
     military_target = "spidertron-military-target",
 }
@@ -167,7 +139,7 @@ recipe.enabled = false
 recipe.name = "spidertron-mk2"
 recipe.ingredients = { { "spidertron", 2 }, { "power-armor-mk3", 2 }, { "effectivity-module-3", 50 },
     { "exoskeleton-equipment", 10 }, { "fusion-reactor-equipment", 5 }, { "low-density-structure", 250 },
-    { "rocket-control-unit", 50 }, { "atomic-bomb", 10 }, { "exoskeleton-mk2", 1 } }
+    { "rocket-control-unit", 50 }, { "atomic-bomb", 10 }, { "exoskeleton-mk2", 2 } }
 recipe.energy_required = 60
 recipe.result = "spidertron-mk2"
 
@@ -200,7 +172,7 @@ technology.unit = {
         { "space-science-pack", 1 }
     },
     time = 30,
-    count = 3000
+    count = 10000
 }
 
 

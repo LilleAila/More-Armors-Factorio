@@ -67,7 +67,7 @@ technology.unit = {
         { "space-science-pack", 1 }
     },
     time = 30,
-    count = 2000
+    count = 6500
 }
 
 data:extend { roboportmk3, item, recipe, technology }

@@ -63,7 +63,7 @@ technology.unit = {
         { "utility-science-pack", 1 },
     },
     time = 30,
-    count = 800
+    count = 2500
 }
 
 data:extend { exoskeletonMk2, item, recipe, technology }

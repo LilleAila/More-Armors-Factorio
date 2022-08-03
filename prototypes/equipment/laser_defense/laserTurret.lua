@@ -96,7 +96,7 @@ technology.unit = {
         { "space-science-pack", 1 }
     },
     time = 30,
-    count = 1000
+    count = 7000
 }
 
 data:extend { laserTurret, item, recipe, technology }

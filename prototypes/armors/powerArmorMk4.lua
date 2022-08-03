@@ -72,7 +72,7 @@ technology.unit = {
         { "space-science-pack", 1 }
     },
     time = 30,
-    count = 4500
+    count = 11000
 }
 
 data:extend { powerArmorMk4, technology, recipe }

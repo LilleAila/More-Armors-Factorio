@@ -63,7 +63,7 @@ technology.unit = {
         { "space-science-pack", 1 }
     },
     time = 30,
-    count = 3000
+    count = 10000
 }
 
 data:extend { fusionReactorMk2, item, recipe, technology }

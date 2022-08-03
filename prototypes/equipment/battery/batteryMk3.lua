@@ -61,7 +61,7 @@ technology.unit = {
         { "utility-science-pack", 1 },
     },
     time = 30,
-    count = 1300
+    count = 5000
 }
 
 data:extend { batteryMk3, item, recipe, technology }
