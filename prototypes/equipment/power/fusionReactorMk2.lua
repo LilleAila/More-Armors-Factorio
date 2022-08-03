@@ -5,8 +5,7 @@ fusionReactorMk2.name = "fusion-reactor-mk2"
 fusionReactorMk2.sprite = {
     filename = "__base__/graphics/equipment/fusion-reactor-equipment.png",
     tint = tint,
-    width = 120,
-    height = 120
+    size = 128
 }
 fusionReactorMk2.power = "1.5MW"
 fusionReactorMk2.take_result = "fusion-reactor-mk2"
