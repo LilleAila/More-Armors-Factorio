@@ -22,7 +22,7 @@ laserTurret.attack_parameters = {
     {
         type = "projectile",
         category = "electric",
-        energy_consumption = "70kJ",
+        energy_consumption = "8kJ",
         projectile = "laser",
         speed = 1,
         action =
